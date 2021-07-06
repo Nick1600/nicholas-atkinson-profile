@@ -49,3 +49,22 @@ header {
     padding-top: 9%;
     text-align: center;
 }
+
+/*ABOUT*/
+.about {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.about__content {
+    margin-top: 1rem;
+    width: 70%;
+}
+.about__image {
+    width: 30%;
+    padding: 0.5rem;
+    height: auto;
+    position: relative;
+    float: right;
+    bottom: 250px;
+}
+
