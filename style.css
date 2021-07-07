@@ -186,5 +186,50 @@ footer {
 }
 
 @media only screen and (max-width: 430px) {
-    
+    * {
+        text-align: center;
+    }
+    /*HEADER*/
+    .intro {
+        display: block;
+    }
+    .intro__title {
+        width: 100%;
+        text-align: center;
+    }
+    .intro__about {
+        position: absolute;
+        top: 20%;
+        padding: 0;
+    }
+
+    /*ABOUT*/
+    .about__content {
+        padding: 0.1rem;
+    }
+    .about__image {
+        width: 65%;
+        right: 20%;
+    }
+
+    /*PROJECTS*/
+    .projects {
+        position: relative;
+        top: -10rem;
+        padding-top: 1rem;
+    }
+    .projects__nav {
+        margin: auto;
+        width: 50%;
+    }
+    .project__about {
+        position: relative;
+        margin: auto;
+        top: 50%;
+    }
+
+    /*FOOTER*/
+    footer {
+        top: 350px;
+    }
 }
