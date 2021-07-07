@@ -135,5 +135,6 @@ header {
 /*FOOTER*/
 footer {
     position: relative;
-    top: 150px;
+    top: 130px;
+    padding: 1rem;
 }
