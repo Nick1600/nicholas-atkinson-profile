@@ -102,8 +102,6 @@ header {
     position: absolute;
     right: 0.5rem;
     bottom: 0;
-    border: 5px solid black;
-    border-radius: 1rem;
     flex-direction: column;
     align-content: center;
     justify-content: space-around;
@@ -129,7 +127,7 @@ header {
     display: none;
 }
 .three img {
-    height: 50%;
+    height: 60%;
     object-fit: cover;
     object-position: top;
 }
