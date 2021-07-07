@@ -60,8 +60,8 @@ const toggleThreeFlex = () => {
 
         apw.style.backgroundColor = 'white';
         apw.style.color = 'black';
-        rpc.style.backgroundColor = 'white';
-        rpc.style.color = 'black';
+        rcp.style.backgroundColor = 'white';
+        rcp.style.color = 'black';
     } else {
         three.style.display = 'none';
         psr.style.backgroundColor = 'white';
