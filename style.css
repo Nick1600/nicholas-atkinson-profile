@@ -127,7 +127,7 @@ header {
     display: none;
 }
 .three img {
-    height: 60%;
+    width: 60%;
     object-fit: cover;
     object-position: top;
 }
@@ -137,4 +137,54 @@ footer {
     position: relative;
     top: 130px;
     padding: 1rem;
+}
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 640px) {
+    /*HEADER*/
+    .profile-picture {
+        display: none;
+    }
+    header {
+        background-image: url(/media/profile-picture.jpg);
+        background-position: 80% 10%;
+    }
+    .intro__about {
+        padding-top: 13%;
+        padding-left: 1rem;
+    }
+    
+    /*ABOUT*/ 
+    .about__content {
+        width: 100%;
+    }
+    .about__image {
+        width: 40%;
+        position: relative;
+        right: 30%;
+        top: 0;
+    }
+
+    /*PROJECTS*/
+    .projects {
+        top: 20px;
+    }
+    .project__about {
+        height: 70%;
+    }
+    .projects__nav {
+        top: 45%;
+    }
+    .three img {
+        height: 40%;
+    }
+    
+    /*FOOTER*/
+    footer {
+        top: 50px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    
 }
